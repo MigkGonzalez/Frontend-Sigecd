@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#header{
+    background: rgb(121, 152, 182);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 0;
+    opacity: 1;
+    border-top: 5px solid #122350;
+    box-shadow: 3px 3px rgba(156, 155, 224, 0.384), -1em 0 0.4em olive;
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+.logo-menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 85%;
+    max-width: 1050px;
+    margin: 0px auto
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+#logo img{
+    height:  160px;
+    display: block;
+    animation: crecer 3s linear;
+}
+@keyframes crecer{
+    from{
+        -webkit-transform:scale(0.25);transform:scale(0.25);
+    }
+   
+}
+#menu{
+    font-weight: 600;
+    
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}    
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    color: #444;
+    transition: 300ms all;
+    border-radius: 8px;
+    
+}
+#menu a:hover{
+    color: #f0a039;
+    background: #f5f7ad;
+}
+
+#registro{
+	color: #444;
+    display: block;  
+    font-size: 1.5rem; 
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    transition: 300ms all;
+    cursor: pointer;
+}
+#registro:hover{
+    color: #f0a039;
+    background: #f5f7ad;
+}
+#slider{
+  width: 100%;
+  height: 320px;
+  line-height: 25px;
+  margin: 0px auto;   
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  color:whitesmoke;
+  text-shadow: 0px 0px 2px #444;
+    
+  background: rgba(241,231,103,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+  
+
+}
+#slider h1{
+  margin:0.2px;
+  width: 85%;
+  margin-top:3.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+#slider h3{
+  margin:0.2px;
+  padding: 0px;
+  width: 85%;
+  text-align: center;
+}
+.btn-white{
+  display: block;
+  background: white;
+  color:#f0a039;
+  padding: 10px;
+  width: 120px;
+  height: 30px;
+  margin:0px auto;
+  
+}
+#footer {
+  background-color: #747473;
+  color: white;
+  box-shadow: 3px 3px rgba(156, 155, 224, 0.384), -1em 0 0.4em olive;
+  font-weight: 600;
+}
+.containerFoo{
+  width: 85%;
+  max-width: 850px;
+  margin: 0px auto;   
+}
+.contentFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#logoFooter{
+  height: 120px;
+  padding: 1rem;
+}
