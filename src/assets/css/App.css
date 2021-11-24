@@ -38,6 +38,7 @@
     border-top: 5px solid #122350;
     box-shadow: 3px 3px rgba(156, 155, 224, 0.384), -1em 0 0.4em olive;
     position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 5 ;
 }
 
 .logo-menu-container{
@@ -45,7 +46,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 180px;
+    height: 130px;
     width: 85%;
     max-width: 1050px;
     margin: 0px auto
@@ -57,7 +58,7 @@
 }
 
 #logo img{
-    height:  160px;
+    height:  130px;
     display: block;
     animation: crecer 3s linear;
 }
@@ -81,7 +82,7 @@
 }
 #menu ul li a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: block;
     padding: 0.5rem 0.5rem;
     color: #444;
@@ -97,7 +98,7 @@
 #registro{
 	color: #444;
     display: block;  
-    font-size: 1.5rem; 
+    font-size: 1.3rem; 
     padding: 0.5rem 0.5rem;
     border-radius: 8px;
     transition: 300ms all;
@@ -107,54 +108,7 @@
     color: #f0a039;
     background: #f5f7ad;
 }
-#slider{
-  width: 100%;
-  height: 320px;
-  line-height: 25px;
-  margin: 0px auto;   
-  margin-top: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 2rem;
-  color:whitesmoke;
-  text-shadow: 0px 0px 2px #444;
-    
-  background: rgba(241,231,103,1);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-  background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
-  
 
-}
-#slider h1{
-  margin:0.2px;
-  width: 85%;
-  margin-top:3.5rem;
-  padding: 2rem;
-  text-align: center;
-}
-#slider h3{
-  margin:0.2px;
-  padding: 0px;
-  width: 85%;
-  text-align: center;
-}
-.btn-white{
-  display: block;
-  background: white;
-  color:#f0a039;
-  padding: 10px;
-  width: 120px;
-  height: 30px;
-  margin:0px auto;
-  
-}
 #footer {
   background-color: #747473;
   color: white;

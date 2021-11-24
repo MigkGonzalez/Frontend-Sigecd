@@ -1,16 +1,26 @@
-import logo from './assets/images/logo.svg';
+// import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
 import './components/Header'
 import Header from './components/Header';
-import Slider from './components/Slider';
 import Footer from './components/Footer';
+import Entrenadores from './components/Entrenadores';
+import ContainerHorUbi from './components/ContainerHorUbi';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ContentMain from './components/ContentMain';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Slider/>
-      <header className="App-header">
+      
+      
+      <ContentMain/>
+
+      <ContainerHorUbi/>
+
+      <Entrenadores/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -23,7 +33,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      
+      
       <Footer/>
     </div>
   );

@@ -15,13 +15,13 @@ class Header extends Component {
           <nav id="menu">
             <ul>
               <li>
-                <a href="home">Inicio</a>
+                <a href="linkContentMain">Inicio</a>
               </li>
               <li>
-                <a href="#horarios-ubicacion">Horario</a>
+                <a href="#linkcontInfoUbicacion">Horario</a>
               </li>
               <li>
-                <a href="#entrenadores">Entrenadores</a>
+                <a href="#linkEntrenadores">Entrenadores</a>
               </li>
               <li>
                 <a href="ingreso">Ingreso</a>

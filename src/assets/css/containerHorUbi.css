@@ -1,0 +1,27 @@
+
+  #containerUbicacion {
+    height: 100%;
+    width: 100%;
+    background: #f4fa9d;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  #containerUbicacion {
+    display: inline-flex;
+    margin-top: 1rem;
+    background: #f4fa9d;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding: 1rem;
+  }
+  #linkcontInfoUbicacion{
+    padding-top: 5rem;
+    background: #f4fa9d;
+  }
+  #titlecontInfoUbi{
+    padding-top: 5rem;
+    background: #f4fa9d;
+    
+  }
+  

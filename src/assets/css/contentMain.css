@@ -1,0 +1,28 @@
+.contentMain{
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+    background: #f4fa9d;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+  }      
+  #containerMain {
+    display: inline-flex;
+    margin-top: 1rem;
+    background: #f4fa9d;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding: 1rem;
+  }
+  #linkcontInfoUbicacion{
+    padding-top: 5rem;
+    
+  }
+  #img-main{
+    width: 850px;
+    margin-top: 4rem; 
+    border-radius: 8px; 
+    
+  }
+  
