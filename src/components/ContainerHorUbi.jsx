@@ -10,20 +10,27 @@ import "../assets/css/containerHorUbi.css";
 class ContainerHorUbi extends Component{
     state = {
         tituloContainerUbiHor: "HORARIOS Y UBICACIÓN",
+        infoHorariosUbicacion:"Los horarios estan organizados por categorias a lo largo de la semana cada categoria tiene su espacio de entrenamiento, sesiones de practica y actividades de juego durante la semana"
         
     }
     render(){
         return (
         <div id="linkcontInfoUbicacion">
         <div id="titlecontInfoUbi">
-            <span><h2 className="title fs-1 py-4 bg-warning text-wrap" lh-lg> { this.state.tituloContainerUbiHor } </h2></span>
+            <span><h1 className="title fs-1 py-4 bg-warning text-wrap" lh-lg> { this.state.tituloContainerUbiHor } </h1></span>
+            <span>
+            <p className="title py-5 px-7 mx-5 text-md-center background-color">
+              {" "}
+              {this.state.infoHorariosUbicacion}{" "}
+            </p>
+          </span>
             <Container fluid="sm, md, lg, xl, xxl" id="containerUbicacion">
             <Row xs={1} md={2} className="g-2">
                <Col>
-                    <Ubicacion/>
+                     <Horario/>
                </Col> 
                <Col>
-                    <Horario/>
+                    <Ubicacion/>
                </Col>
                               
             </Row>

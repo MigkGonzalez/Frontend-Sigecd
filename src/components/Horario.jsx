@@ -24,7 +24,7 @@ class Horario extends Component {
         />
         <Card.Body>
           <Card.Title>{this.state.titleHorario}</Card.Title>
-          <Card.Text>{this.state.infoHorario}</Card.Text>
+          <Card.Text className="card-info fs-3">{this.state.infoHorario}</Card.Text>
         </Card.Body>
       </Card>
     );

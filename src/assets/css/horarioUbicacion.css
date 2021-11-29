@@ -1,8 +1,13 @@
 .ubihorario{
+     
     position: relative;
-    width: 640px;
-    margin: 0 auto;
-    height:480px       
+    background:#f5d654;
+    width: 40rem;
+    height: 35rem;
+    margin: 0 2rem;
+    
     }
   
-    
+    #img-card{
+        height:24rem
+        }    

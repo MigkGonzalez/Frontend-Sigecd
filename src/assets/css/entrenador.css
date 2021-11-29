@@ -2,11 +2,11 @@
     position: absolute;
     background:#f5d654;
     width: 40rem;
-    margin: 0 1rem;
+    height: 45rem;
+    margin: 0 2rem;
     
     
     }
-  #img-card{
-    height:24rem
-  }
-    
+    #img-card{
+      height:24rem
+      }    

@@ -11,11 +11,11 @@ class Ubicacion extends Component{
     }
     render(){
         return(
-      <Card className="ubihorario text-warning bg-dark rounded-3 mx-5 mt-3" id="containerCard">
+      <Card className="ubihorario text-warning bg-dark rounded-3 mx-5 mt-3" >
         <Card.Img id="img-card" variant="top" /><iframe title="Ubicación" src= {this.state.geoUbicacion}/>
         <Card.Body>
           <Card.Title>{this.state.titleUbicacion}</Card.Title>
-          <Card.Text>{this.state.infoUbicacion}</Card.Text>
+          <Card.Text className="card-info fs-3">{this.state.infoUbicacion}</Card.Text>
         </Card.Body>
       </Card>
         )
