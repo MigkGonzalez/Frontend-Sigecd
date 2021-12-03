@@ -15,17 +15,19 @@ class ContentMain extends Component {
         <div id="contentMain">
             <Container fluid="sm, md, lg, xl, xxl" id="containerMain">
             <Row xs={1} md={2} className="g-2">
-               <Col xs lg="5">
+              <Col xs lg="1"></Col> 
+               <Col xs lg="4">
                     <Slider/>
                </Col> 
-               <Col  >
-                    <img src={equipo} alt="equipo" id="img-main"/>
+               <Col xs lg="6" >
+                    <div id="content-img"><img src={equipo} alt="equipo" id="img-main"/></div>
                </Col>
                               
             </Row>
           </Container>
-        <div className="clearfix"></div>
+        
         </div>
+        <div className="clearfix"></div>
         </div>
 
     )

@@ -65,6 +65,7 @@ class Entrenadores extends Component {
             </Row>
           </Container>
         </div>
+        <div className="clearfix"></div>
       </div>
     );
   }

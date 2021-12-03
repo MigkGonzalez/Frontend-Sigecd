@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import logo from "../assets/images/logo.png";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import '../assets/css/header.css';
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   render() {
     return (
-      <Router>
       <header id="header">
         <div className="logo-menu-container">
           {/*Logo*/}
@@ -17,7 +17,7 @@ class Header extends Component {
           <nav id="menu">
             <ul>
               <li>
-              <Link to="/"> Home </Link>
+                <NavLink to="/"> Home </NavLink>
               </li>
               <li>
                 <a href="#linkcontInfoUbicacion"> Horario </a>
@@ -26,11 +26,10 @@ class Header extends Component {
                 <a href="#linkEntrenadores"> Entrenadores </a>
               </li>
               <li>
-                <Link to="/login"> Ingreso </Link>
+                <NavLink to={"/login"}> Ingreso </NavLink>
               </li>
               <li>
-              <Link to="/register"> Inscripción </Link>
-                            
+                <NavLink to="/register"> Inscripción </NavLink>
               </li>
             </ul>
           </nav>
@@ -38,7 +37,6 @@ class Header extends Component {
         {/*Limpiar flotados*/}
         <div className="clearfix"></div>
       </header>
-      </Router>
     );
   }
 }

@@ -1,12 +1,12 @@
 .mb-2{
-    position: absolute;
+    position: relative;
     background:#f5d654;
-    width: 40rem;
-    height: 45rem;
-    margin: 0 2rem;
-    
+    width: 85%;
+    display: inline-block;   
+    margin:0.5%;
+    box-sizing: border-box;
     
     }
     #img-card{
-      height:24rem
-      }    
+      width:100%
+    }    

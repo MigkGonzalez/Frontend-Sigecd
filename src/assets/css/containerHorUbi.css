@@ -31,4 +31,9 @@
     padding: 1rem;
   }
 
+  .clearfix{
+    clear: both;
+    float: none;
+}
+
  

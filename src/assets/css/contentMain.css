@@ -1,29 +1,36 @@
-.contentMain{
-    height: 100%;
+#contentMain{
+    height: 500px;
     width: 100%;
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     background: #f4fa9d;
-    text-align: center;
-    align-items: center;
-    display: inline-flex;
+             
   }      
   #containerMain {
-    height: 100%;
+    height: auto;
     width: 100%;
     background: #f4fa9d;
-    text-align: center;
-    align-items: center;
-    display: inline-flex;
+            
   }
 
-  #linkcontInfoUbicacion{
-    padding-top: 5rem;
+  .linkContentMain{
+    padding-top: 0.6rem;
+  }
+  #g-2{
+    width: 100%;
+    margin-top: 1rem; 
+    
+  }
+  #content-img{
+    width: 100%;
+    margin-top: 0.5rem; 
     
   }
   #img-main{
-    width: 850px;
-    margin-top: 4rem; 
+    max-width: 100%;
     border-radius: 8px; 
-    
   }
+  .clearfix{
+    clear: both;
+    float: none;
+}
   

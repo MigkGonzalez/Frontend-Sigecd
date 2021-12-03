@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logoMisionTic from "../assets/images/logo_misiontic.png";
+import '../assets/css/footer.css';
 
 class Footer extends Component {
   render() {
