@@ -22,6 +22,7 @@ class Rutas extends Component{
                 <Route exact path="/login" element={<Login />}/>  
                 <Route exact path="/register" element={<Register />}/> 
                 <Route exact path="/entrenador" element={<VistaEntrenador />}/> 
+                
                 <Route path="*" element={<ErrorPage />}/>
                 
            </Routes>
